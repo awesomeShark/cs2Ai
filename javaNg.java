@@ -40,10 +40,15 @@ public class  javaNg implements PlayerInt
                     {
                         ls = new LocationScore(score, l);
                     }
-                    else if(ls.getScore()<=score)
+                    else if(ls.getScore()<score)
                     {
                         ls = new LocationScore(score,l);
-                        System.out.println("changed");
+                    }
+                    else if(ls.getScore()==score)
+                    {
+                        int random = (int)(Math.random()*2);
+                        if(random==1)
+                            ls = new LocationScore(score,l);
                     }
                 }
             }
@@ -59,7 +64,7 @@ public class  javaNg implements PlayerInt
 
 
 
-		/*
+
 		gradeMove grade = new gradeMove(board,ls.getLoc(),letter);
 			System.out.println("\nNew Move");
 			System.out.println("Score: " + grade.score);
@@ -73,12 +78,12 @@ public class  javaNg implements PlayerInt
 			System.out.println("opThree: "+grade.opThree);
 			System.out.println("opFour: "+grade.opFour);
 
-		 */
+
 
 
         /*try
         {
-            Thread.sleep(2000);
+            Thread.sleep(5000);
         }
         catch(Exception e)
         {

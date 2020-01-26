@@ -24,7 +24,7 @@ public class ClientMain
 		int mode = 0;
 		
 		PlayerInt myAIasX = new javaNg('X');
-		PlayerInt myAIasO = new Test_AI_1('O');
+		PlayerInt myAIasO = new javaNg('O');
 		String myAI_Name = myAIasX.getName();
 		String opponentName = "";
 		PlayerInt currentlyPlaying = null;

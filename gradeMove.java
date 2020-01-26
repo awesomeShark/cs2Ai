@@ -31,7 +31,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -65,7 +65,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++
 
         switch (count)
         {
@@ -99,7 +99,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++
 
         switch (count)
         {
@@ -132,7 +132,7 @@ public class gradeMove {
                 break;
             }
         }
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -150,7 +150,7 @@ public class gradeMove {
                 break;
         }
 
-        //
+        count = 1;
 
         for (int x = 0; x < 4; x++) {
             if(board.getData()[x][3-x][loc.getCol()]=='-')
@@ -198,7 +198,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -233,7 +233,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -266,7 +266,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -299,7 +299,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -334,7 +334,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -367,7 +367,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -400,7 +400,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -434,7 +434,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -467,7 +467,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -500,7 +500,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -533,7 +533,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -566,7 +566,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -599,7 +599,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -632,7 +632,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -673,7 +673,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -707,7 +707,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -741,7 +741,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -776,7 +776,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -809,7 +809,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -842,7 +842,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -877,7 +877,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -910,7 +910,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -943,7 +943,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -978,7 +978,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1011,7 +1011,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1044,7 +1044,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1078,7 +1078,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1111,7 +1111,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1144,7 +1144,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1177,7 +1177,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1210,7 +1210,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1243,7 +1243,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1276,7 +1276,7 @@ public class gradeMove {
             }
         }
 
-        count++;
+        //count++;
 
         switch (count)
         {
@@ -1297,9 +1297,6 @@ public class gradeMove {
 
 
         score = oneInARow+twoInARow*10+threeInARow*1000+fourInARow*10000-opOne-opTwo*10-opThree*100-opFour*1000;
-
-        if(fourInARow>0)
-            score = 100000000;
 
         //take winning move at all costs, but also block his winning move
         //add option for 2 lines of attack - optional
